@@ -1,0 +1,734 @@
+body{
+background: #fefefe;
+}
+
+li div{
+  border-radius:0px !important;
+}
+
+
+
+.navbar-fixed{
+  background:#004d40;
+}
+
+.navbar-fixed div{
+  background:#26a69a;
+}
+
+.navbar-fixed a{
+  background:transparent;
+  width: 148px;
+  max-width: 35vw;
+  text-align: center;
+}
+
+.calendarbtn{
+  margin-top:4px !important;
+  margin-bottom:0px !important;
+  max-height:30px !important;
+}
+
+#ulprimari {
+  background:transparent;
+}
+
+#ulprimari div{
+  background:#fff;
+}
+
+#ulprimari li{
+  background:transparent;
+}
+
+#ulprimari .margin-popout-head a{
+  background:#fff;
+}
+
+.displayblock{
+  display:block;
+}
+
+.displaynone{
+  display:none;
+}
+
+.login{
+  margin-left:10px !important;
+  margin-right:7px !important;
+  width:120px;
+  min-width:120px;
+  max-width:120px;
+  margin-top:8px;
+  text-align: center;
+
+  font-weight: normal !important;
+
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #FFF;
+}
+
+
+
+#modalAddProyect{
+  height:470px !important;
+  max-height:90vh !important;
+}
+#modal1{
+  height:500px !important;
+  max-height:90vh !important;
+}
+#modal1 input{
+  max-height:30px !important;
+
+}
+#modal1 .input-field{
+  margin-bottom:1vh;
+}
+
+#dropdowntipog {
+  max-height:400px;
+}
+
+.input-min{
+  border:none !important;
+}
+
+.positionfixed{
+  position:fixed !important;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.prenav{
+  min-height: 30vh;
+  top:0px;
+  bottom: 70vh;
+}
+
+nav {
+    top:0px;
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
+}
+.navbar-fixed{
+  top:0px;
+  height: 50px;
+  line-height: 50px;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 50px;
+    line-height: 50px;
+}
+
+nav .button-collapse i {
+    height: 50px;
+    line-height: 50px;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 3rem;
+
+}
+
+
+nav .brand-logo {
+    font-size: 3.5rem;
+    height: 48px;
+}
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 50px;
+        line-height: 50px;
+    }
+}
+
+
+
+.userlist img{
+  height:30px !important;
+  width:30px !important;
+  margin: 5px!important;
+}
+
+.userlist{
+margin-bottom: 0px !important;
+text-overflow: ellipsis !important;
+overflow: hidden;
+text-decoration: none;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+.userlist-content-btn .divider{
+  margin-top:30px !important;
+}
+
+.collection-item{
+  min-height: 30px !important;
+}
+.popout-margin-none{
+margin-top:0px !important;
+margin-bottom:0px !important;
+margin-left:10px !important;
+margin-right:10px !important;
+}
+
+.li-content-button{
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+  background:red;
+}
+.add-a{
+  background: inline-block;
+  width:100%;
+  height:100%;
+  border-radius:0px;
+
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  color:#fafafa !important;
+}
+
+.width90{
+  width:90%;
+}
+
+.width100{
+  width:100%;
+}
+.width80{
+  display:inline-flex;
+  width:80%;
+  min-width: 80%;
+}
+
+
+.text-align-left{
+  text-align: left !important;
+}
+.text-align-right{
+  text-align: right !important;
+}
+
+
+
+.padding-modal-content{
+  padding-top: 15px !important;
+  padding-bottom:0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.padding-none{
+  padding-top: 0px !important;
+  padding-bottom:0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.padding-l-r-none{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.padding-l-r-small{
+  padding-left: 8px !important;
+  padding-right: 4px !important;
+}
+.padding-t-b-none{
+  padding-top: 0px !important;
+  padding-bottom:0px !important;
+}
+.padding-l-r-none-t-b-small{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-top: 2px !important;
+  padding-bottom:2px !important;
+}
+.padding-a-l-r-medium{
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+  padding-top: 0px !important;
+  padding-bottom:0px !important;
+}
+.padding-top-medium{
+  padding-top: 10px !important;
+}
+
+.padding-small{
+  padding-top: 2px !important;
+  padding-bottom:2px !important;
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+}
+.padding-medium{
+  padding-top: 6px !important;
+  padding-bottom:6px !important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+.padding-lr-medium{
+  padding-top: 6px !important;
+  padding-bottom:6px !important;
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+}
+.padding-bottom-big{
+  padding-bottom:40px !important;
+}
+.margin-padding-title{
+  margin-top: 0px !important;
+  margin-bottom:0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+
+  padding-top: 0px !important;
+  padding-bottom:10px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+
+}
+
+.margin-none{
+  margin-top: 0px !important;
+  margin-bottom:0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.margin-t-b-none{
+  margin-top: 0px !important;
+  margin-bottom:0px !important;
+
+}
+.margin-t-r-l-none{
+  margin-top: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.margin-l-r-none{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.margin-l-r-small{
+  margin-left: 2px !important;
+  margin-right: 2px !important;
+}
+.margin-l-r-medium{
+  margin-left: 8px !important;
+  margin-right: 8px !important;
+}
+.margin-small{
+  margin-top: 2px !important;
+  margin-bottom:2px !important;
+  margin-left: 4px !important;
+  margin-right: 4px !important;
+}
+.margin-medium{
+  margin-top: 6px !important;
+  margin-bottom:6px !important;
+  margin-left: 8px !important;
+  margin-right: 8px !important;
+}
+.margin-bottom-medium{
+  margin-bottom:12px !important;
+}
+.margin-bottom-none{
+  margin-bottom:0px !important;
+}
+.margin-top-none{
+  margin-top:0px !important;
+}
+.margin-t-b-medium{
+  margin-top: 12px !important;
+  margin-bottom:12px !important;
+
+}
+
+.margin-top-small{
+  margin-top: 2px !important;
+  margin-bottom:0px !important;
+}
+.margin-top-medium{
+  margin-top: 6px !important;
+  margin-bottom:0px !important;
+}
+.margin-popout-head{
+margin-top:0px !important;
+margin-bottom:12px !important;
+margin-left:-10px !important;
+margin-right:-10px !important;
+}
+.margin-popout-head div.collapsible-header{
+  border-radius:0px;
+}
+.margin-popout-body{
+margin-top:-12px !important;
+margin-bottom:0px !important;
+margin-left:-10px !important;
+margin-right:-10px !important;
+}
+.margin-popout-body div.collapsible-header{
+  border-radius:0px;
+}
+
+.popout-margin{
+margin-top:0px !important;
+margin-left:10px !important;
+margin-right:10px !important;
+}
+
+.bordernone{
+  border:none !important;
+}
+.border-radius-none{
+  border-radius: 0px !important;
+}
+
+.maxbottom{
+  max-height:90%;
+}
+.switch{
+  border-radius:1em;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+small{
+  font-size: 0.9rem !important;
+}
+
+.xsmall{
+  font-size: x-small !important;
+}
+
+.sidenav a{
+  height: 50px;
+}
+
+.collection-text{
+  color:#424242 !important;
+}
+
+.max-width-title{
+  width: 52vw !important;
+  max-width: 52vw !important;
+  display: inline-block !important;
+}
+
+.teal-lighten-text{
+  color:#b2dfdb !important;
+}
+
+.collapsible-header a{
+  width: 100%;
+
+}
+
+.collapsible-header a strong{
+  display:inline-block;
+  width:80%;
+  min-width:80%;
+  margin-top:0px;
+  margin-bottom:0px;
+  padding-top:0px;
+  padding-bottom:0px;
+  font-weight: normal;
+}
+
+.collection-active a{
+padding-top:6px !important;
+padding-bottom:6px !important;
+padding-left:8px !important;
+padding-right:8px !important;
+}
+.collection-active a strong{
+
+  display:inline-block;
+  width:80%;
+  min-width:80%;
+  margin-top:0px;
+  margin-bottom:0px;
+  padding-top:0px;
+  padding-bottom:0px;
+
+}
+.collection-active a font{
+  font-size: 0.9rem !important;
+  display:inline-block;
+  width:80%;
+  min-width:80%;
+  margin-top:0px;
+  margin-bottom:0px;
+  padding-top:0px;
+  padding-bottom:0px;
+}
+.collapsible-header a small{
+  display:inline-block;
+  margin-top:0px;
+  margin-bottom:0px;
+  padding-top:0px;
+  padding-bottom:0px;
+  margin-left:5px;
+}
+.collection-active a small{
+  display:inline-block;
+  margin-top:0px;
+  margin-bottom:0px;
+  padding-top:0px;
+  padding-bottom:0px;
+  margin-left:5px;
+}
+
+.new{
+  font-weight: normal !important;
+  letter-spacing: 1px !important;
+}
+.xsmall{
+  font-size: x-small !important;
+}
+.small{
+  font-size: 0.8em !important;
+}
+.pagado{
+  color: #bdbdbd !important;
+}
+.pagado .collapsible-header{
+
+}
+.pagado .collapsible-header span{
+  background: #e0e0e0  !important;
+  color: #fff !important;
+}
+.pagado a{
+  color:#bdbdbd !important;
+}
+
+.nopagado{
+  color: #424242 !important;
+}
+.nopagado a{
+  color: #424242 !important;
+}
+
+
+.switchlsbel{
+  display:inline-block;
+  margin-bottom:5px;
+  color:#111;
+}
+
+.input-field input{
+  margin-top: 2px !important;
+  margin-bottom:2px !important;
+  margin-left: 2px !important;
+  margin-right: 2px !important;
+}
+
+.collapsible-body{
+  background:#fefefe;
+  padding-top:4px;
+  padding-bottom:0px;
+  padding-left:8px;
+  padding-right:8px;
+}
+
+
+.collapsible-header{
+  padding-top:4px;
+  padding-bottom:4px;
+  padding-left:10px;
+  padding-right:4px;
+}
+
+.collapsible-body input{
+  max-height:25px !important;
+}
+.collection-item input{
+  max-height: 25px !important;
+}
+
+ .collapsible-body div.col{
+   padding-top: 4px !important;
+   padding-bottom:4px !important;
+   padding-left: 4px !important;
+   padding-right: 4px !important;
+ }
+
+ .collapsible-body div.col span{
+   margin-left:6px;
+ }
+ .collapsible-body div.row{
+   margin-bottom: 8px !important;
+ }
+ .titleli{
+   padding-left:2px;
+   padding-right: 0px;
+ }
+
+.header-li {
+  text-align:right !important;
+  margin-left:50%;
+  min-height: 50%;
+}
+.header-li a{
+  border-radius:0px !important;
+}
+
+
+.contentButon{
+  text-align:right;
+}
+
+
+
+ .divbordertop{
+    border-top: 0.1px solid #ccc;
+ }
+
+.Tiny{
+  font-size: 1rem !important;
+}
+.Tiny-medium{
+  font-size: 1.24rem !important;
+}
+
+.Small{
+  font-size: 2rem !important;
+}
+
+.document{
+  margin-top:0px;
+  margin-bottom: 0px;
+  margin-left:0px;
+  margin-right:0px;
+  padding-left:0px !important;
+  padding-right:0px !important;
+}
+
+.feed{
+
+  margin-top:0px !important;
+  margin-bottom:0px !important;
+  padding-top:15px;
+  padding-bottom:15px;
+
+  padding-left:0px !important;
+  padding-right:0px !important;
+}
+#contentstaticleftcard{
+  padding-top:0px;
+  padding-bottom: 0px;
+  padding-left:0px !important;
+  padding-right:0px !important;
+  position:fixed;
+  min-height: 95vh;
+  max-height: 95vh;
+
+}
+.contennavstatic{
+  padding-right: 22px;
+  max-height: 95vh;
+  padding-top:15px;
+  padding-bottom:20px;
+  overflow-x:auto;
+}
+
+#carddatepicker{
+  padding-top:0px !important;
+  padding-bottom: 0px !important;
+  padding-left:0px !important;
+  padding-right:0px !important;
+  margin-top:0px !important;
+  margin-bottom: 0px !important;
+  margin-left:0px !important;
+  margin-right:0px !important;
+}
+
+#carddatepicker div{
+  box-shadow: 0px !important;
+}
+
+#carddatepicker .react-datepicker{
+
+  border:none !important;
+
+}
+
+#carddatepicker .react-datepicker-popper{
+  width: 100% !important;
+
+}
+
+#carddatepicker .react-datepicker{
+  width: 100% !important;
+  text-align: center !important;
+  margin-left:0px !important;
+  margin-right:0px !important;
+}
+#carddatepicker .react-datepicker__navigation{
+  background:transparent;
+}
+
+#carddatepicker .react-datepicker__month-container{
+
+    width: 100% !important;
+}
+
+#carddatepicker .react-datepicker__header{
+   background: #fff !important;
+   color:#fff !important;
+}
+
+#carddatepicker .react-datepicker__month-read-view{
+  color: #818181 !important;
+  font-size: 0.9rem !important;
+}
+
+.react-datepicker__month-dropdown{
+  background: #009688 !important;
+}
+
+.react-datepicker__month-dropdown :hover{
+  background: #26a69a !important;
+}
+
+.react-datepicker__day--in-range{
+  background: #ffcc80 !important;
+  color:#bf360c !important;
+}
+
+.react-datepicker__day--highlighted-custom-2{
+  background: red;
+}
+
+#carddatepicker .react-datepicker__day--selected{
+  background:#e57373 !important;
+  color:#fbe9e7 !important;
+}
+
+
+
+.tardias{
+  background:#e57373 !important;
+  color:#fbe9e7 !important;
+}
+.criticas{
+  background:#ffcc80 !important;
+  color:#bf360c !important;
+}
